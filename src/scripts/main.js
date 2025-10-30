@@ -9,7 +9,7 @@ const removeCol = document.querySelector('.remove-column');
 const table = document.querySelector('table');
 
 const minCount = 2;
-const maxCount = 12;
+const maxCount = 10;
 
 appendRow.addEventListener('click', () => {
   const trClone = table.rows[0].cloneNode(true);
